@@ -12,5 +12,6 @@ setup(
     packages=['deprector'],
     package_dir={'deprector': 'deprector'},
     package_data={'deprector': ['*.pkl']},
+    include_package_data=True,
     install_requires=required
 )

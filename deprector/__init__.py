@@ -1,6 +1,9 @@
+import os
 import joblib
 
-nb_deprector = joblib.load('deprector/naive_bayes_deprector.pkl')
+this_dir, this_filename = os.path.split(__file__)  # Get path of data.pkl
+data_path = os.path.join(this_dir, 'naive_bayes_deprector.pkl')
+nb_deprector = joblib.load(data_path)
 
 
 def booleanize(int_repr):
