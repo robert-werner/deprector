@@ -1,6 +1,6 @@
 import joblib
 
-nb_deprector = joblib.load('naive_bayes_deprector.pkl')
+nb_deprector = joblib.load('deprector/naive_bayes_deprector.pkl')
 
 
 def booleanize(int_repr):

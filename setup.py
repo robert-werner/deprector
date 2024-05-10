@@ -10,5 +10,7 @@ setup(
     author='Leonid Kolesnichenko',
     author_email='xperience439@gmail.com',
     packages=['deprector'],
+    package_dir={'deprector': 'deprector'},
+    package_data={'deprector': ['*.pkl']},
     install_requires=required
 )
