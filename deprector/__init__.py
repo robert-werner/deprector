@@ -2,7 +2,7 @@ import os
 import joblib
 
 this_dir, this_filename = os.path.split(__file__)  # Get path of data.pkl
-data_path = os.path.join(this_dir, 'naive_bayes_deprector.pkl')
+data_path = os.path.join(this_dir, 'knn_pipeline_deprector.pkl')
 nb_deprector = joblib.load(data_path)
 
 
