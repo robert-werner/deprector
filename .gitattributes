@@ -1,0 +1,8 @@
+deprector/__init__.py filter=lfs diff=lfs merge=lfs -text
+deprector/__pycache__ filter=lfs diff=lfs merge=lfs -text
+deprector/config.json filter=lfs diff=lfs merge=lfs -text
+deprector/model.safetensors filter=lfs diff=lfs merge=lfs -text
+deprector/special_tokens_map.json filter=lfs diff=lfs merge=lfs -text
+deprector/tokenizer.json filter=lfs diff=lfs merge=lfs -text
+deprector/tokenizer_config.json filter=lfs diff=lfs merge=lfs -text
+deprector/vocab.txt filter=lfs diff=lfs merge=lfs -text

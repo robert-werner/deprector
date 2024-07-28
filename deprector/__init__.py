@@ -1,17 +1,3 @@
-import os
-import joblib
-
-this_dir, this_filename = os.path.split(__file__)  # Get path of data.pkl
-data_path = os.path.join(this_dir, 'knn_pipeline_deprector.pkl')
-nb_deprector = joblib.load(data_path)
-
-
-def booleanize(int_repr):
-    if int_repr == 0:
-        return False
-    elif int_repr == 1:
-        return True
-
-
-def deprect(phrase):
-    return booleanize(nb_deprector.predict([phrase])[0])
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1620f1539033e485ab740a7449bbafc79e9e1d0fe5328d0d14c9e4362f2b122
+size 937
