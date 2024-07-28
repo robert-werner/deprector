@@ -11,7 +11,7 @@ setup(
     author_email='xperience439@gmail.com',
     packages=['deprector'],
     package_dir={'deprector': 'deprector'},
-    package_data={'deprector': ['*.pkl']},
+    package_data={'deprector': ['*.json', '*.safetensors', "*.txt"]},
     include_package_data=True,
     install_requires=required
 )
